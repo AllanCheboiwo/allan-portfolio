@@ -1,70 +1,106 @@
-# Getting Started with Create React App
+# Allan's Portfolio Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, responsive portfolio website built with React and Tailwind CSS, featuring a stunning lion roar animation intro and comprehensive sections to showcase my skills, projects, and experience.
 
-## Available Scripts
+## 🌟 Features
 
-In the project directory, you can run:
+- Animated intro with Lottie animation
+- Responsive design for all devices
+- Dark theme with modern UI
+- Interactive project showcase
+- Blog section with category filtering
+- Contact form
+- Smooth scrolling and animations
+- Dynamic content management
 
-### `npm start`
+## 🛠️ Built With
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- React.js
+- Tailwind CSS
+- React Router
+- Lottie Animations
+- Hero Icons
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🚀 Getting Started
 
-### `npm test`
+### Prerequisites
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Node.js (v14 or higher)
+- npm
 
-### `npm run build`
+### Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone the repository
+   ```bash
+   git clone https://github.com/AllanCheboiwo/allan-portfolio.git
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. Install dependencies
+   ```bash
+   cd allan-portfolio
+   npm install
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. Start the development server
+   ```bash
+   npm start
+   ```
 
-### `npm run eject`
+4. Open [http://localhost:3000](http://localhost:3000) to view it in your browser
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 📁 Project Structure
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+allan-portfolio/
+├── public/
+│   ├── index.html
+│   └── favicon.ico
+├── src/
+│   ├── components/
+│   │   ├── Navbar.js
+│   │   ├── Hero.js
+│   │   ├── About.js
+│   │   ├── Experience.js
+│   │   ├── Projects.js
+│   │   ├── Skills.js
+│   │   ├── Blog.js
+│   │   ├── Contact.js
+│   │   └── Footer.js
+│   ├── assets/
+│   │   └── lion-roar.json
+│   ├── App.js
+│   ├── index.js
+│   └── data.js
+└── package.json
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🎨 Customization
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+The website content can be easily customized by modifying the `data.js` file, which contains all the personal information, projects, skills, and blog posts.
 
-## Learn More
+## 📱 Responsive Design
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+The website is fully responsive and optimized for:
+- Mobile devices
+- Tablets
+- Desktops
+- Large screens
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🔧 Future Improvements
 
-### Code Splitting
+- [ ] Add dark/light theme toggle
+- [ ] Implement blog post pages
+- [ ] Add project filtering
+- [ ] Integrate a CMS for blog posts
+- [ ] Add animations for scroll events
+- [ ] Implement contact form functionality
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 📄 License
 
-### Analyzing the Bundle Size
+This project is licensed under the MIT License - see the LICENSE file for details
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 📬 Contact
 
-### Making a Progressive Web App
+Allan Cheboiwo - [kiplongeiallan@gmail.com](mailto:kiplongeiallan@gmail.com)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Project Link: [https://github.com/AllanCheboiwo/allan-portfolio](https://github.com/AllanCheboiwo/allan-portfolio)
