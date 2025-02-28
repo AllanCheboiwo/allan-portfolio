@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/allan-portfolio/static/css/main.59fa9514.css",
+    "main.js": "/allan-portfolio/static/js/main.d350828f.js",
+    "static/js/453.b5cca87b.chunk.js": "/allan-portfolio/static/js/453.b5cca87b.chunk.js",
+    "index.html": "/allan-portfolio/index.html",
+    "main.59fa9514.css.map": "/allan-portfolio/static/css/main.59fa9514.css.map",
+    "main.d350828f.js.map": "/allan-portfolio/static/js/main.d350828f.js.map",
+    "453.b5cca87b.chunk.js.map": "/allan-portfolio/static/js/453.b5cca87b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.59fa9514.css",
+    "static/js/main.d350828f.js"
+  ]
+}
